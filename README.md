@@ -11,6 +11,12 @@ Sun Mayuan  3035767255
 
 Description of our game:
 
+Someday when a COMP2113 student was working with his terminal, some magical events occurred...
+
+So, the following instructions will regulate you to restore the situation and start a brand new adventure of your own. 
+In the beginning, you will find out some magical words shown on your screen. You should choose to [enter] this mysterious world and explore more or [refuse] it and continue to be a muggle, not knowing magic. Then someone will ask you about the [date] at that moment, based on that you will have a different experience. If the day you come in is odd, you will be [randomly] arranged based on the [date] of your arrival to have [lessons] in the magnificent and legendary Hogwarts castle. Each [lesson] would have its unique stories. Also, you will be [tested] too. If that day is even, you will have some [field trip] inside or nearby the castle.
+Along with magical life is your [magical power] and house [points]. Qualified [magical power] is the [requirement] of your graduation. However, if your house is [deducted] a certain amount of points by what you have done, you would have to [stop] your school life immediately. In this wonderful magical world, you will encounter various situations. You must use your bravery and knowledge to make proper choices, no matter in [tests] in class or something happens in the [field trip]. The result of these events would influence the two measurements, [magical power] and house [points], we talked about before. We are here waiting for your successful graduation!
+
 
 Game rules:
 
