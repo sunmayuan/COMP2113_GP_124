@@ -20,7 +20,7 @@ tripgambler.o: tripgambler.cpp tripgambler.h
 welcome_main.o: welcome_main.cpp classpsyco.h dragon.h potion.h spell.h tripgambler.h
 	g++ $(FLAGS) -c $<
 
-main: welcome_main.o tripgambler.o spell.o potion.o dragon.o classpsyco.o
+welcome_main: welcome_main.o tripgambler.o spell.o potion.o dragon.o classpsyco.o
 	g++ $(FLAGS) $^ -o $@
 
 clean:
