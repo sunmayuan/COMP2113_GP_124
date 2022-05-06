@@ -3,6 +3,14 @@
 #include <ctime>
 #include <fstream>
 #include <algorithm>
+
+
+#include "classpsyco.h"
+#include "tripgambler.h"
+#include "spell.h"
+#include "potion.h"
+#include "dragon.h"
+
 using namespace std;
 
 struct Wizard {
@@ -151,13 +159,14 @@ int main(){
   cout<<endl;
   if( (*s).magic_power >= 7 ){  //the player win (graduate)
     cout<< "Congradulations! Your magic power is " << (*s).magic_power << endl;
-
-
+    cout<< "You are qualified to be a excellent wizard! You can use you power to benefit others!" << endl;
+    cout<< "Also, do not forget! Hogworts will always be your home!
   }
 
   else{      //the player lose (stop adventure)
     cout<< "Unfortunately, your have no house credits ." << endl;
-
+    cout<< "But, do not give up! One moment lose does not mean everthing!" << endl;
+    cout<< "Trust yourself and do it again!" << endl;
   }
 
   delete s;
