@@ -150,7 +150,7 @@ int main(){
     cout<<endl;
 
     string com;
-    cout<<"If you have some issues in the muggles’s world, you could quit. That’s fine! Magic journey could restart anytime! Please enter Quit if you want to quit. Otherwise, enter anything. "<<endl;
+    cout<<"If you have some issues in the muggles’s world, you could quit. That’s fine! Magic journey could restart anytime! Please enter <Quit> if you want to quit. Otherwise, enter anything. "<<endl;
     cin>>com;
     if(com=="Quit"){
        cout<<"See you next time!"<<endl;
