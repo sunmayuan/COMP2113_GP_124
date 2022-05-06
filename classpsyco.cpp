@@ -2,6 +2,8 @@
 #include <cstdlib>
 #include <ctime>
 #include <algorithm>
+
+#include "classpsyco.h"
 using namespace std;
 
 int classpsyco(){
