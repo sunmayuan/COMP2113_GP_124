@@ -8,8 +8,8 @@ int potion(){
   int power=0;
   int credit=0;
   int overall=0;
-
-  while(input!="Exit"){
+  
+  
     cout << " < Professor is ready to take a sudden test. > " << endl;
     cout << endl;
 
@@ -137,7 +137,6 @@ int potion(){
     else{
       cout << "You got nothing in the end!" << endl;
     }
-    input = "Exit";
     return overall;
-  }
+  
 }
