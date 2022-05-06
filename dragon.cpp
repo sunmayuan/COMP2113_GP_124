@@ -2,9 +2,11 @@
 #include <cstdlib>
 #include <ctime>
 #include <algorithm>
+
+#include "dragon.h"
 using namespace std;
 
-int main(){
+int dragon(){
   cout << " < You are travelling around the Hogworts Castle. > " << endl;
   cout << " Woow! Watch out! There is a fire dragon!" << endl;
   cout << " Calm Down! We need to fight it! " << endl;
