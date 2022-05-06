@@ -108,7 +108,11 @@ int main(){
   cout<<endl;
 
   cout<<"Now your magic power is "<< (*s).magic_power;
-  cout<<". Your house credit is "<< (*s).house_credit << ". Go for it!" << endl;
+  cout<<". Your house credit is "<< (*s).house_credit << ". Go for it! Please enter something to start the journey." << endl;
+  string * str = new string;
+  cin>>string;
+  delete str;
+   
   int c;
 
   while ( (*s).magic_power < 7 && (*s).house_credit > 0)
@@ -141,7 +145,7 @@ int main(){
     if(c>0)
       (*s).magic_power+=c;
     else if(c<0)
-      (*s).house_credit-=c;
+      (*s).house_credit+=c;
 
     cout<<endl;
 
