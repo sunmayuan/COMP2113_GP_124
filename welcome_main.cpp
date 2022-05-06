@@ -75,7 +75,7 @@ int main(){
   {
     (*s).name=name;
     (*s).magic_power=0;
-    (*s).house_credit=5;
+    (*s).house_credit=7;
     (*s).day=1;
     cout<<name<<", my dear young wizard, welcome to Hogwarts! You must be very talent and curious! Here you will be taught brand-new magic knowledge and experience unforeseen exciting events. You will be tested, but afterwards you could win the glory for your house if you can successfully pass them. Good luck and be brave."<<endl;
     cout<<endl;
@@ -104,7 +104,7 @@ int main(){
   cout << "Now! Let me introduce some rules to you: " << endl;
   cout << "Since you were in muggles' world for so long before," << endl;
   cout << "you have to win 7 Magic power to graduate!" << endl;
-  cout << "You will stop your adventure if you lost 5 House Credit!" << endl;
+  cout << "You will stop your adventure if you lost 7 House Credit!" << endl;
   cout<<endl;
 
   cout<<"Now your magic power is "<< (*s).magic_power;
