@@ -167,7 +167,7 @@ int main(){
     cout<< "Also, do not forget! Hogworts will always be your home!" << endl;
   }
 
-  else{      //the player lose (stop adventure)
+  else if ((*s).house_credit <= 0) {      //the player lose (stop adventure)
     cout<< "Unfortunately, your have no house credits ." << endl;
     cout<< "But, do not give up! One moment lose does not mean everthing!" << endl;
     cout<< "Trust yourself! You can try other wizards' schools!" << endl;
