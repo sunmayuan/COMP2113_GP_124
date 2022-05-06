@@ -3,6 +3,8 @@
 #include <ctime>        // for calling time()
 #include <algorithm>    // for calling sort()
 
+#include "tripgambler.h"
+
 #define SPADE   "\xE2\x99\xA0"
 #define CLUB    "\xE2\x99\xA3"
 #define HEART   "\xE2\x99\xA5"
