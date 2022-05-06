@@ -86,6 +86,9 @@ int dragon(){
     }
   }
 
+  
+  cout << "You can know the dragon's HP is " << hp << " after you watch closely!" << endl;
+  
   if(power>hp){
     cout << "You successfully beat the dragon!" << endl;
     cout << endl;
