@@ -21,7 +21,7 @@ Along with magical life is your [magical power] and house [credits]. Qualified [
 Game rules:
 
 
-When the player's health bar is empty, the game will be lost. When the player reaches the highest level, the game will be won and one of the endings will be seen.
+When the player's [house credit] is empty, the game will be lost. When the player reaches the highest level, the game will be won and one of the endings will be seen.
 
 
 List of features and coding elements to support them:
