@@ -3,13 +3,13 @@
 #include "spell.h"
 using namespace std;
 
-int spell(){
+int spell()
+{
   string input;
   int power=0;
   int credit=0;
   int overall=0;
 
-  while(input!="Exit"){
     cout << " < Professor is ready to take a sudden test. > " << endl;
     cout << endl;
 
@@ -124,9 +124,7 @@ int spell(){
       credit-=1;
     }
     cout << endl;
-
-
-
+  
     overall = credit+power;
     if (overall > 0){
       cout << "You successfully gained " << overall << " magic power!" << endl;
@@ -137,7 +135,6 @@ int spell(){
     else{
       cout << "You got nothing in the end!" << endl;
     }
-    input = "Exit";
     return overall;
-  }
+
 }
