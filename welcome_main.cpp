@@ -5,7 +5,7 @@
 #include <algorithm>
 using namespace std;
 
-struct Student {
+struct Wizard {
    string name;
    int magic_power;
    int house_credit;
@@ -13,7 +13,7 @@ struct Student {
    string house;
 };
 
-void saving(Student s){
+void saving(Wizard s){
   string filename=s.name+".txt";
   ofstream fout(filename.c_str());
   if(fout.fail()){
@@ -53,7 +53,7 @@ int main(){
   cout << endl;
   cout << endl;
 
-  Student * s = new Student;
+  Wizard * s = new Wizard;
 
   cout<<"Are you ready? Please tell me your name!"<<endl;
   string name;
@@ -63,7 +63,7 @@ int main(){
   string filename = name+".txt";
   ifstream fin(filename.c_str());
 
-  if (fin.fail())   // a new student
+  if (fin.fail())   // a new Wizard
   {
     (*s).name=name;
     (*s).magic_power=0;
@@ -85,7 +85,7 @@ int main(){
     cout<<"The Hat considered for a moment, then the rip near the brim opened and shouted: "<<(*s).house<<"! "<<endl;
   }
 
-  else      // an exsiting student
+  else      // an exsiting Wizard
   {
     cout<<"Hey, my old friend! It is so good to see you again! Ready to continue the unfinished adventure? Don’t hesitate! Let’s unpack and start our old journey!"<<endl;
     fin >> (*s).name >> (*s).magic_power >> (*s).house_credit >> (*s).day >> (*s).house;
