@@ -35,7 +35,7 @@ int dragon(){
   string imput;
 
   srand(time(NULL));
-  hp=rand()%7+5;
+  hp=rand()%3+5;
 
 
 
