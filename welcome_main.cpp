@@ -160,13 +160,13 @@ int main(){
   if( (*s).magic_power >= 7 ){  //the player win (graduate)
     cout<< "Congradulations! Your magic power is " << (*s).magic_power << endl;
     cout<< "You are qualified to be a excellent wizard! You can use you power to benefit others!" << endl;
-    cout<< "Also, do not forget! Hogworts will always be your home!
+    cout<< "Also, do not forget! Hogworts will always be your home!" << endl;
   }
 
   else{      //the player lose (stop adventure)
     cout<< "Unfortunately, your have no house credits ." << endl;
     cout<< "But, do not give up! One moment lose does not mean everthing!" << endl;
-    cout<< "Trust yourself and do it again!" << endl;
+    cout<< "Trust yourself! You can try other wizards' schools!" << endl;
   }
 
   delete s;
