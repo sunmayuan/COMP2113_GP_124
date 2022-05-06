@@ -3,7 +3,7 @@
 #include "spell.h"
 using namespace std;
 
-int main(){
+int spell(){
   string input;
   int power=0;
   int credit=0;
