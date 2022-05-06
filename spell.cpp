@@ -1,4 +1,6 @@
 #include <iostream>
+
+#include "spell.h"
 using namespace std;
 
 int main(){
