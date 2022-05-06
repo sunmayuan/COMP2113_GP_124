@@ -13,9 +13,13 @@ Description of our game:
 
 Someday when a COMP2113 student was working with his terminal, some magical events occurred...
 
-So, the following instructions will regulate you to restore the situation and start a brand new adventure of your own. 
-In the beginning, you will find out some magical words shown on your screen. You should choose to [enter] this mysterious world and explore more or [refuse] it and continue to be a muggle, not knowing magic. Then someone will ask you about the [date] at that moment, based on that you will have a different experience. If the day you come in is odd, you will be [randomly] arranged based on the [date] of your arrival to have [lessons] in the magnificent and legendary Hogwarts castle. Each [lesson] would have its unique stories. Also, you will be [tested] too. If that day is even, you will have some [field trip] inside or nearby the castle.
-Along with magical life is your [magical power] and house [credits]. Qualified [magical power] is the [requirement] of your graduation. However, if your house is [deducted] a certain amount of points by what you have done, you would have to [stop] your school life immediately. In this wonderful magical world, you will encounter various situations. You must use your bravery and knowledge to make proper choices, no matter in [tests] in class or something happens in the [field trip]. The result of these events would influence the two measurements, [magical power] and house [points], we talked about before. We are here waiting for your successful graduation!
+So, the following instructions will regulate you and help you start a brand new adventure of your own. 
+
+In the beginning, you will find out some magical words shown on your screen. You should tell the wizard your [name] first! Then that wizard will ask you about your [birthday] which is very important, since based on that you will have your own [House] given by the sorting hat randomly. You will have [lessons] in the magnificent and legendary Hogwarts castle. Each [lesson] would have its unique stories. Also, you will be [tested] too. Besides, you will have some [field trip] inside or nearby the castle.
+
+Along with magical life is your [magical power] and house [credits]. Qualified [magical power] is the [requirement] of your graduation. However, if your house is [deducted] a certain amount of points by what you have done, you would have to [stop] your school life immediately. In this wonderful magical world, you will encounter various situations. You must use your bravery and knowledge to make proper choices, no matter in [tests] in class or something happens in the [field trip]. The result of these events would influence the two measurements, [magical power] and house [points], we talked about before. It is also ok if you want to [quit] in the middle of the journey. We will always [remember] you and help you [restart] your study at where you leave.
+
+Hogworts will always be your home and we are here waiting for your successful graduation!
 
 
 Game rules:
