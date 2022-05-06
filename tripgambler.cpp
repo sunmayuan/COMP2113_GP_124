@@ -186,7 +186,8 @@ int tripgambler()
   cout<<endl;
   cout<<"Now, the game begins!"<<endl;
   int hand[NUMCARDS];   // declare an array of 5 integers to store a hand
-  int gambler, user, bet;
+  int gambler, user;
+  int bet=0;
   DealHand(hand);
   cout << "Your cards are: ";
   PrintHand(hand);
