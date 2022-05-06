@@ -110,7 +110,7 @@ int main(){
   cout<<"Now your magic power is "<< (*s).magic_power;
   cout<<". Your house credit is "<< (*s).house_credit << ". Go for it! Please enter something to start the journey." << endl;
   string * str = new string;
-  cin>>string;
+  cin>> *str;
   delete str;
    
   int c;
