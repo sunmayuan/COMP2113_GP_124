@@ -1,7 +1,9 @@
 #include <iostream>
+
+#include "potion.h"
 using namespace std;
 
-int main(){
+int potion(){
   string input;
   int power=0;
   int credit=0;
