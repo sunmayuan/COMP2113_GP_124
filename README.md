@@ -25,8 +25,8 @@ When the player's [house credit] is empty, the game will be lost. When the playe
 
 
 List of features and coding elements to support them:
-1. Generation of random game sets or events - The player will be randomly assigned to one of the four Houses using their lucky numbers as the random seed. Also, the player may encounter a random game set every time. For example, the computer needs to generate random cards in a poker game. 
-2. Data structures for storing game status - Two integers used to store the level of magic power and the points earned for the House; Linked list used to store each day information; And arrays used to store scenarios and related options. 
-3. Dynamic memory management - Update the level of magic power and the points earned for the House according to the player's choices; The linked list for storing each day's choice is a dynamic data structure that needs to be updated every round. 
-4. File input/output - Store the players' names in a file for checking; Save the latest game status so that the player can choose to continue the last game next time. 
-5. Program codes in multiple files - Multiple files contain different sub-stories for easy calling when the player makes choices, like Diagon_Alley, Gringotts, and Forbidden_Forest; Multiple files contain various situations the players may encounter in classes.
+1. Generation of random game sets or events - The player will be randomly assigned to one of the four Houses according to their birthdays. Also, the player may encounter a random game set on most days, like random cards in the game with gambler, dargon's HP and player's power in fighting dragons, the random integer for the player to guess in psycho class.
+2. Data structures for storing game status - A struct named [Wizard] is defined to store the information of players. In the struct, three integers used to store [magic power], [House credit], and [day]; two strings used to store [name] and [House]. 
+3. Dynamic memory management - Use pointers to create and access the sturct [Wizard]. Update [magic power] and [House credit] according to the player's choices every day. 
+4. File input/output - Every time a new player comes, a file named "Player_name.txt" will be created. The players' information and latest game status will be saved in a file when entering [Quit], so that the player can continue the last game next time by file input.
+5. Program codes in multiple files - The main function and several self-defined functions containing different sub-stories are written in seperate files. There is a function.cpp to define functions and a function.h to save functions. Finally, the [Makefile] run all functions together.
