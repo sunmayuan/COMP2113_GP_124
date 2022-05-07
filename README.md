@@ -34,3 +34,12 @@ List of features and coding elements to support them:
 3. Dynamic memory management - Use pointers to create and access the sturct [Wizard]. Update [magic power] and [House credit] according to the player's choices every day. 
 4. File input/output - Every time a new player comes, a file named "Player_name.txt" will be created. The players' information and latest game status will be saved in a file when entering [Quit], so that the player can continue the last game next time by file input.
 5. Program codes in multiple files - The main function and several self-defined functions containing different sub-stories are written in seperate files. There is a function.cpp to define functions and a function.h to save functions. Finally, the [Makefile] run all functions together.
+
+
+
+Compilation and execution instructions:
+
+1. Download the ZIP
+2. $cd COMP2113_GP_124
+3. $make welcome_main
+4. $./welcome_main
