@@ -39,7 +39,7 @@ List of features and coding elements to support them:
 
 Compilation and execution instructions:
 
-1. Download the ZIP
+1. Download ZIP and unzip it
 2. $cd COMP2113_GP_124
 3. $make welcome_main
 4. $./welcome_main
